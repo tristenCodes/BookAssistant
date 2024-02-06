@@ -1,14 +1,9 @@
-import { ModeToggle } from "@/components/ui/toggle-theme";
+import Hero from "@/components/hero/hero";
 
 export default function Home() {
   return (
-    <main>
-      <ModeToggle />
-      <h1>Book Assistant</h1>
-      <p>
-        Utilizes the Google Books API to search for books and display details
-        about them.
-      </p>
-    </main>
+    <div className="max-w-screen-2xl max-screen-width">
+      <Hero />
+    </div>
   );
 }
