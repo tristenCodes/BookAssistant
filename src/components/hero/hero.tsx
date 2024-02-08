@@ -1,4 +1,4 @@
-import { Button } from "../ui/button";
+import { Login, Signup } from "../login-signup-popups/login-signup-popups";
 
 const Hero = () => {
   return (
@@ -17,10 +17,8 @@ const Hero = () => {
         reading journey more organized and accessible than ever.
       </p>
       <div className="flex gap-4">
-        <Button style={{ width: "100px" }}>Sign Up</Button>
-        <Button style={{ width: "100px" }} variant={"ghost"}>
-          Login
-        </Button>
+        <Signup />
+        <Login />
       </div>
     </div>
   );
